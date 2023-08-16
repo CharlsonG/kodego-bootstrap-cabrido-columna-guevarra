@@ -6,11 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body>
-    <header class=".container-fluid border-bottom border-dark-subtle mb-4">
+<body class="position-relative">
+  <img src="General Background Image.jpg" class="img-fluid position-fixed top-0 z-n1 opacity-25" alt="...">
+  <header class=".container-fluid border-bottom border-dark-subtle mb-4 position-sticky top-0 z-3">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <img src="Travel Logo.png" class="img-fluid" alt="...">
+            <img src="Travel Logo.png" class="img-fluid rounded-4" alt="...">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,7 +30,7 @@
             </div>
           </div>
         </nav>
-    </header>
+  </header>
     <section id="about" class="pt-5" >
         <h1 class="text-center mb-5">About</h1>
         <div class="container">
@@ -43,9 +44,8 @@
             </div>
         </div>
       </section>
-      <hr>
       <h1 class="text-center mb-5 mt-5">Services</h1>
-      <section class="container text-center mb-5 mt-5">
+      <section class=".container text-center mb-5 mt-5">
             <div class="row">
               <div class="col d-flex justify-content-center">
                 <div class="card ms-3 me-3" style="width: 18rem;">
@@ -75,29 +75,29 @@
                       <p class="card-text">Join like-minded explorers on our meticulously planned group tours. These tours are designed to maximize your experiences, foster friendships, and create memories that last a lifetime.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
+                </div>
               </div>
             </div>
         </section>
-       <hr>
         <div class="container mb-5 mt-5">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-7 d-flex flex-column">
                   <h4>Get in touch</h4>
                     <div class="mb-3">
                         <label for="formGroupExampleInput" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name">
+                        <input type="text" class="form-control border-black rounded-3 border-4 border-opacity-25" id="formGroupExampleInput" placeholder="Enter your name">
                       </div>
                       <div class="mb-3">
                         <label for="formGroupExampleInput2" class="form-label">Email Me</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your email">
+                        <input type="text" class="form-control border-black rounded-3 border-4 border-opacity-25" id="formGroupExampleInput2" placeholder="Enter your email">
                       </div>
                       <div class="mb-3">
                         <label for="formGroupExampleInput2" class="form-label">Contact Number</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your number">
+                        <input type="text" class="form-control border-black rounded-3 border-4 border-opacity-25" id="formGroupExampleInput2" placeholder="Enter your number">
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Message me</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control border-black rounded-3 border-4 border-opacity-25" id="exampleFormControlTextarea1" rows="2" placeholder="Let us know what you want!"></textarea>
                       </div>
                       <button class="btn btn-primary">Submit</button>
                 </div>

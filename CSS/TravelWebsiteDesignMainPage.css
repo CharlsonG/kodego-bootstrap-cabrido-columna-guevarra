@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+hr {
+    position: fixed;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+p.title1 {
+    font-size: 7rem;
+    opacity: 0.8;
+    text-shadow: 5px 5px rgb(146, 146, 146);
+}
+
+p.paragraph1 {
+    opacity: 0.8;
+    text-shadow: 5px 5px rgb(146, 146, 146);
+}

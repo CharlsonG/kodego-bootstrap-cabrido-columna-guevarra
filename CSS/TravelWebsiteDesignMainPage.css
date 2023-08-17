@@ -13,11 +13,28 @@ hr {
 
 p.title1 {
     font-size: 7rem;
-    opacity: 0.8;
+    opacity: 1;
     text-shadow: 5px 5px rgb(146, 146, 146);
 }
 
 p.paragraph1 {
-    opacity: 0.8;
-    text-shadow: 5px 5px rgb(146, 146, 146);
+    opacity: 1;
+    text-shadow: 1px 1px rgb(146, 146, 146);
 }
+
+@media (max-width: 600px) {
+    img.imgLogo {
+        width: 30px;
+    }
+
+    p.title1 {
+      font-size: 24px;
+
+    }
+    
+    p.paragraph1 {
+      font-size: 8px;
+
+    }
+  }
+
